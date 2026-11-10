@@ -1,0 +1,53 @@
+import { addTestPhoto, checkAccessibility, createEvent, expect, resetLocalEvents, test } from "./fixtures";
+
+test("F03 opens a saved gallery item and exposes browser sharing fallback", async ({ page }) => {
+  await resetLocalEvents(page);
+  const eventId = await createEvent(page, "Galeri uji browser");
+  await page.getByRole("button", { name: "2 foto × 2 strip" }).click();
+  await page.getByRole("button", { name: "Simpan event" }).click();
+  await addTestPhoto(page, eventId, "e2e-photo-a");
+  await addTestPhoto(page, eventId, "e2e-photo-b");
+  await page.goto(`/events/${eventId}/gallery`);
+  await expect(page.getByRole("heading", { name: "Galeri uji browser" })).toBeVisible();
+  await expect(page.getByText("2", { exact: true }).first()).toBeVisible();
+  await checkAccessibility(page);
+  const stripSelection = page.locator(".media-print-select input");
+  await expect(page.getByRole("button", { name: "Cetak 2 foto × 2 strip" })).toBeDisabled();
+  await stripSelection.nth(0).check();
+  await stripSelection.nth(1).check();
+  await expect(page.getByRole("button", { name: "Cetak 2 foto × 2 strip" })).toBeEnabled();
+  await page.evaluate(() => {
+    const openWindow = window.open.bind(window);
+    window.open = (url, target, features) => {
+      const popup = openWindow(url, target, features);
+      if (popup) popup.print = () => undefined;
+      return popup;
+    };
+  });
+  const stripPopupPromise = page.waitForEvent("popup");
+  await page.getByRole("button", { name: "Cetak 2 foto × 2 strip" }).click();
+  const stripPopup = await stripPopupPromise;
+  const stripSources = await stripPopup.locator(".print-slot img").evaluateAll((images) => images.map((image) => (image as HTMLImageElement).src));
+  expect(stripSources).toHaveLength(4);
+  expect(stripSources[0]).toBe(stripSources[2]);
+  expect(stripSources[1]).toBe(stripSources[3]);
+  expect(stripSources[0]).not.toBe(stripSources[1]);
+  await expect(page.getByRole("status")).toContainText("Dua strip identik");
+  const galleryView = page.getByRole("group", { name: "Versi gambar" }).first();
+  await galleryView.getByRole("button", { name: "Template" }).click();
+  await expect(page.locator(".media-preview .template-live-preview")).toHaveCount(2);
+  await checkAccessibility(page);
+  await galleryView.getByRole("button", { name: "Asli" }).click();
+  await page.getByRole("button", { name: /Buka photo/ }).first().click();
+  await expect(page.getByRole("dialog", { name: "Detail media" })).toBeVisible();
+  const detailView = page.getByRole("group", { name: "Versi gambar" }).last();
+  await detailView.getByRole("button", { name: "Template" }).click();
+  await expect(page.locator(".dialog-media .template-live-preview")).toBeVisible();
+  await checkAccessibility(page);
+  await detailView.getByRole("button", { name: "Asli" }).click();
+  await page.getByRole("button", { name: "Bagikan" }).click();
+  await expect(page.getByRole("status")).toContainText(/Browser ini belum mendukung berbagi file|Menu berbagi perangkat dibuka/);
+  await page.getByRole("button", { name: "Cetak", exact: true }).click();
+  await expect(page.getByRole("status")).toContainText("Foto akan dicetak pada 4 slot layout.");
+  await expect(page.getByRole("link", { name: "Unduh asli" })).toBeVisible();
+});

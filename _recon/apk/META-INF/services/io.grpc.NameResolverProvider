@@ -1,0 +1,6 @@
+io.grpc.internal.DnsNameResolverProvider
+io.grpc.grpclb.SecretGrpclbNameResolverProvider$Provider
+io.grpc.netty.shaded.io.grpc.netty.UdsNameResolverProvider
+io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider
+io.grpc.googleapis.GoogleCloudToProdNameResolverProvider
+io.grpc.xds.XdsNameResolverProvider

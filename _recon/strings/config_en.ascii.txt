@@ -1,0 +1,562 @@
+Learn more
+GGa;href=https://support.google.com/chromecast/?p=trouble-finding-devices
+%1$d hours
+%1$d minutes
+%1$d o'clock
+%1$d percent.
+999+
+Add a device
+Alert
+Alt+
+Answer
+Autofill
+Bluetooth
+Bottom Sheet
+Cast to
+Cast. Connected
+Cast. Connecting
+Cast. Disconnected
+Casting screen
+Change to next month
+Change to previous month
+Choose an app
+Clear query
+Close
+Close navigation menu
+Close sheet
+Collapse
+Collapse bottom sheet
+Collapsed
+Copy link
+Ctrl+
+Current selection: %1$s
+Date
+**Date does not match expected pattern: %1$s
+Date not allowed: %1$s
+++Date out of expected year range %1$s - %2$s
+Decline
+Devices
+Dialog
+Dismiss
+Dismiss bottom sheet
+Done
+Drag handle
+Dropdown menu
+Empty
+End date
+Enter dates
+Entered date
+Entered date: %1$s
+Expand
+Expand bottom sheet
+Expanded
+Finding devices
+Function+
+Group
+Hang Up
+Hour
+In progress
+In range
+Incoming call
+Invalid date range input
+Invalid input
+Learn how to cast
+Link copied to clipboard
+Looking for devices...
+CCMake sure the other device is on the same Wi-Fi network as this car
+FFMake sure the other device is on the same Wi-Fi network as this device
+EEMake sure the other device is on the same Wi-Fi network as this phone
+FFMake sure the other device is on the same Wi-Fi network as this tablet
+BBMake sure the other device is on the same Wi-Fi network as this tv
+EEMake sure the other device is on the same Wi-Fi network as this watch
+Menu+
+Meta+
+Minute
+More options
+Navigate home
+Navigate to year %1$s
+Navigate up
+Navigation menu
+No devices available
+No info available
+No media selected
+Not selected
+OFF
+Off
+Ongoing call
+Open in browser
+Partially checked
+Passkey
+Password
+Play on a group
+Pop-Up Window
+Range end
+Range start
+Screening an incoming call
+Scroll to show earlier years
+Scroll to show later years
+Scroll to show the next month
+!!Scroll to show the previous month
+Search
+Search query
+See all
+Select AM or PM
+Select date
+Select dates
+Select hour
+Select minutes
+Selected
+Selected date
+Share link
+Share with
+Share with %s
+Shift+
+Show tooltip
+Speaker
+Start date
+Stop casting
+Submit query
+Suggestions below
+@@Swipe to select a year, or tap to switch back to selecting a day
+Switch
+Switch to calendar input mode
+Switch to selecting a year
+Switch to text input mode
+Sym+
+System
+Tab
+Today
+Toggle dropdown menu
+Tooltip
+Video
+Voice search
+Volume slider
+Year picker visible
+delete
+enter
+for hour
+for minutes
+show tooltip
+space
+tooltip
+%1$.2f Mbps
+%1$d per cent.
+%1$d 
+ %2$d
+%1$s + %2$d
+CC%1$s is having trouble with Google Play services. Please try again.
+66%1$s won't run unless you update Google Play services.
+JJ%1$s won't run without Google Play services, which are currently updating.
+PP%1$s won't run without Google Play services, which are missing from your device.
+TT%1$s won't run without Google Play services, which are not supported by your device.
+77%1$s won't work unless you enable Google Play services.
+%1$s, %2$s
+0.25x
+0.5x
+0.75x
+1.25x
+1.5x
+5.1 surround sound
+7.1 surround sound
+Ad in progress
+Album art
+Alternative
+Audio
+Auto
+Bottom sheet
+Cancel
+Cast
+Casting to %1$s
+Closed captions
+Closed captions unavailable
+Commentary
+Connected to %1$s
+Connecting to %1$s
+--Current mode: Repeat all. Toggle repeat mode.
+..Current mode: Repeat none. Toggle repeat mode.
+--Current mode: Repeat one. Toggle repeat mode.
+22Current position is at the head of the live stream
+Dialogue
+Disable shuffle mode
+Disable subtitles
+Disconnect
+Download
+Download completed
+Download failed
+Downloading
+Downloads
+Downloads paused
+Downloads waiting for Wi-Fi
+Downloads waiting for network
+Drop-down menu
+Enable
+Enable Google Play services
+Enable shuffle mode
+Enable subtitles
+Enter fullscreen
+Exit fullscreen
+Fast-forward
+Fast-forward %d second
+Fast-forward %d seconds
+Forward
+Forward ten seconds
+Forward thirty seconds
+Get Google Play services
+!!Google Play services availability
+Google Play services error
+Hang up
+Hide additional settings
+Hide player controls
+88Image displayed while the cast receiver is playing an ad
+Install
+LIVE
+Live stream
+Loading 
+GGMake sure that the other device is on the same Wi-Fi network as this TV
+HHMake sure that the other device is on the same Wi-Fi network as this car
+KKMake sure that the other device is on the same Wi-Fi network as this device
+JJMake sure that the other device is on the same Wi-Fi network as this phone
+KKMake sure that the other device is on the same Wi-Fi network as this tablet
+JJMake sure that the other device is on the same Wi-Fi network as this watch
+Mono
+Mute
+JJNew version of Google Play services needed. It will update itself shortly.
+Next
+None
+Normal
+On-going call
+Open on phone
+Partially ticked
+Pause
+Play
+Playback progress
+Playback seek control
+Pop-up window
+Previous
+Removing downloads
+Rewind
+Rewind %d second
+Rewind %d seconds
+Rewind ten seconds
+Rewind thirty seconds
+Select a.m. or p.m.
+Settings
+Show additional settings
+Show player controls
+Sign In
+Sign in with Google
+Skip Ad
+Skip to next item
+Skip to previous item
+Speed
+Stereo
+Stop
+Stop live stream
+Subtitles
+Supplementary
+Surround sound
+??Swipe to select a year or tap to switch back to selecting a day
+Toggle drop-down menu
+Track %1$d
+Unknown
+Unknown (%1$s)
+Unmute
+Update
+Update Google Play services
+VR mode
+You can skip ad in %1$d
+a.m.
+p.m.
+Swipe to select a year, or tap to switch back to selecting a day
+Make sure the other device is on the same Wi-Fi network as this phone
+Make sure the other device is on the same Wi-Fi network as this car
+Make sure the other device is on the same Wi-Fi network as this device
+Scroll to show the previous month
+Make sure the other device is on the same Wi-Fi network as this watch
+Make sure the other device is on the same Wi-Fi network as this tv
+%1$d
+ percent.
+Make sure the other device is on the same Wi-Fi network as this tablet
+Date does not match expected pattern: %1$s
+Date out of expected year range %1$s - %2$s
+Share with 
+exo_controls_playback_speeds
+..exo_controls_fastforward_by_amount_description
+))exo_controls_rewind_by_amount_description
+abc_action_bar_home_description
+abc_action_bar_up_description
+$$abc_action_menu_overflow_description
+abc_action_mode_done
+!!abc_activity_chooser_view_see_all
+**abc_activitychooserview_choose_application
+abc_capital_off
+abc_capital_on
+abc_menu_alt_shortcut_label
+abc_menu_ctrl_shortcut_label
+abc_menu_delete_shortcut_label
+abc_menu_enter_shortcut_label
+  abc_menu_function_shortcut_label
+abc_menu_meta_shortcut_label
+abc_menu_shift_shortcut_label
+abc_menu_space_shortcut_label
+abc_menu_sym_shortcut_label
+abc_prepend_shortcut_label
+abc_search_hint
+  abc_searchview_description_clear
+  abc_searchview_description_query
+!!abc_searchview_description_search
+!!abc_searchview_description_submit
+  abc_searchview_description_voice
+""abc_shareactionprovider_share_with
+..abc_shareactionprovider_share_with_application
+  abc_toolbar_collapse_description
+,,android.credentials.TYPE_PASSWORD_CREDENTIAL
+//androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL
+autofill
+call_notification_answer_action
+%%call_notification_answer_video_action
+  call_notification_decline_action
+  call_notification_hang_up_action
+call_notification_incoming_text
+call_notification_ongoing_text
+  call_notification_screening_text
+cast_ad_label
+cast_casting_to_device
+cast_closed_captions
+  cast_closed_captions_unavailable
+cast_connecting_to_device
+cast_disconnect
+cast_dynamic_group_name_format
+--cast_expanded_controller_ad_image_description
+''cast_expanded_controller_ad_in_progress
+))cast_expanded_controller_background_image
+..cast_expanded_controller_live_head_description
+..cast_expanded_controller_live_stream_indicator
+  cast_expanded_controller_loading
+&&cast_expanded_controller_skip_ad_label
+%%cast_expanded_controller_skip_ad_text
+cast_forward
+cast_forward_10
+cast_forward_30
+cast_intro_overlay_button_text
+cast_live_label
+cast_mute
+##cast_notification_connected_message
+$$cast_notification_connecting_message
+&&cast_notification_default_channel_name
+cast_notification_disconnect
+cast_pause
+cast_play
+cast_rewind
+cast_rewind_10
+cast_rewind_30
+cast_seek_bar
+cast_skip_next
+cast_skip_prev
+cast_stop
+cast_stop_live_stream
+  cast_tracks_chooser_dialog_audio
+!!cast_tracks_chooser_dialog_cancel
+**cast_tracks_chooser_dialog_closed_captions
+--cast_tracks_chooser_dialog_default_track_name
+cast_tracks_chooser_dialog_none
+cast_tracks_chooser_dialog_ok
+$$cast_tracks_chooser_dialog_subtitles
+cast_unmute
+close_drawer
+close_sheet
+))common_google_play_services_enable_button
+''common_google_play_services_enable_text
+((common_google_play_services_enable_title
+**common_google_play_services_install_button
+((common_google_play_services_install_text
+))common_google_play_services_install_title
+55common_google_play_services_notification_channel_name
+//common_google_play_services_notification_ticker
+))common_google_play_services_unknown_issue
+,,common_google_play_services_unsupported_text
+))common_google_play_services_update_button
+''common_google_play_services_update_text
+((common_google_play_services_update_title
+))common_google_play_services_updating_text
+,,common_google_play_services_wear_update_text
+common_open_on_phone
+common_signin_button_text
+common_signin_button_text_long
+copy_toast_msg
+default_error_message
+default_popup_window_title
+dropdown_menu
+$$exo_controls_cc_disabled_description
+##exo_controls_cc_enabled_description
+$$exo_controls_fastforward_description
+))exo_controls_fullscreen_enter_description
+((exo_controls_fullscreen_exit_description
+exo_controls_hide
+exo_controls_next_description
+&&exo_controls_overflow_hide_description
+&&exo_controls_overflow_show_description
+exo_controls_pause_description
+exo_controls_play_description
+exo_controls_playback_speed
+!!exo_controls_previous_description
+##exo_controls_repeat_all_description
+##exo_controls_repeat_off_description
+##exo_controls_repeat_one_description
+exo_controls_rewind_description
+!!exo_controls_seek_bar_description
+!!exo_controls_settings_description
+exo_controls_show
+$$exo_controls_shuffle_off_description
+##exo_controls_shuffle_on_description
+exo_controls_stop_description
+exo_controls_vr_description
+exo_download_completed
+exo_download_description
+exo_download_downloading
+exo_download_failed
+&&exo_download_notification_channel_name
+exo_download_paused
+exo_download_paused_for_network
+exo_download_paused_for_wifi
+exo_download_removing
+exo_item_list
+exo_track_bitrate
+exo_track_mono
+exo_track_resolution
+exo_track_role_alternate
+exo_track_role_closed_captions
+exo_track_role_commentary
+exo_track_role_supplementary
+exo_track_selection_auto
+exo_track_selection_none
+exo_track_selection_title_audio
+exo_track_stereo
+exo_track_surround
+exo_track_surround_5_point_1
+exo_track_surround_7_point_1
+exo_track_unknown
+exo_track_unknown_name
+fallback_menu_item_copy_link
+""fallback_menu_item_open_in_browser
+fallback_menu_item_share_link
+''ic_media_route_learn_more_accessibility
+in_progress
+indeterminate
+%%m3c_bottom_sheet_collapse_description
+$$m3c_bottom_sheet_dismiss_description
+((m3c_bottom_sheet_drag_handle_description
+##m3c_bottom_sheet_expand_description
+m3c_bottom_sheet_pane_title
+m3c_date_input_headline
+##m3c_date_input_headline_description
+""m3c_date_input_invalid_for_pattern
+""m3c_date_input_invalid_not_allowed
+!!m3c_date_input_invalid_year_range
+m3c_date_input_label
+##m3c_date_input_no_input_description
+m3c_date_input_title
+m3c_date_picker_headline
+$$m3c_date_picker_headline_description
+,,m3c_date_picker_navigate_to_year_description
+((m3c_date_picker_no_selection_description
+''m3c_date_picker_scroll_to_earlier_years
+%%m3c_date_picker_scroll_to_later_years
+''m3c_date_picker_switch_to_calendar_mode
+''m3c_date_picker_switch_to_day_selection
+$$m3c_date_picker_switch_to_input_mode
+$$m3c_date_picker_switch_to_next_month
+((m3c_date_picker_switch_to_previous_month
+((m3c_date_picker_switch_to_year_selection
+m3c_date_picker_title
+!!m3c_date_picker_today_description
+&&m3c_date_picker_year_picker_pane_title
+((m3c_date_range_input_invalid_range_input
+m3c_date_range_input_title
+""m3c_date_range_picker_day_in_range
+""m3c_date_range_picker_end_headline
+**m3c_date_range_picker_scroll_to_next_month
+..m3c_date_range_picker_scroll_to_previous_month
+$$m3c_date_range_picker_start_headline
+m3c_date_range_picker_title
+m3c_dialog
+m3c_dropdown_menu_collapsed
+m3c_dropdown_menu_expanded
+m3c_dropdown_menu_toggle
+m3c_search_bar_search
+m3c_snackbar_dismiss
+m3c_suggestions_available
+m3c_time_picker_am
+m3c_time_picker_hour
+m3c_time_picker_hour_24h_suffix
+m3c_time_picker_hour_selection
+m3c_time_picker_hour_suffix
+m3c_time_picker_hour_text_field
+m3c_time_picker_minute
+  m3c_time_picker_minute_selection
+m3c_time_picker_minute_suffix
+!!m3c_time_picker_minute_text_field
+))m3c_time_picker_period_toggle_description
+m3c_time_picker_pm
+m3c_tooltip_long_press_label
+m3c_tooltip_pane_description
+media_notification_channel_name
+mr_button_content_description
+mr_cast_button_connected
+mr_cast_button_connecting
+mr_cast_button_disconnected
+%%mr_cast_dialog_title_view_placeholder
+mr_chooser_looking_for_devices
+mr_chooser_searching
+mr_chooser_title
+mr_chooser_wifi_learn_more
+''mr_chooser_wifi_warning_description_car
+))mr_chooser_wifi_warning_description_phone
+**mr_chooser_wifi_warning_description_tablet
+&&mr_chooser_wifi_warning_description_tv
+++mr_chooser_wifi_warning_description_unknown
+))mr_chooser_wifi_warning_description_watch
+""mr_chooser_zero_routes_found_title
+mr_controller_album_art
+mr_controller_casting_screen
+mr_controller_close_description
+mr_controller_collapse_group
+mr_controller_disconnect
+mr_controller_expand_group
+mr_controller_no_info_available
+mr_controller_no_media_selected
+mr_controller_pause
+mr_controller_play
+mr_controller_stop
+mr_controller_stop_casting
+mr_controller_volume_slider
+mr_dialog_default_group_name
+mr_dialog_groupable_header
+mr_dialog_transferable_header
+mr_route_name_bluetooth
+mr_route_name_speaker
+mr_route_name_tv
+mr_route_name_unknown
+mr_system_route_name
+mr_user_route_category_name
+navigation_menu
+not_selected
+range_end
+range_start
+search_menu_title
+selected
+snackbar_pane_title
+state_empty
+state_off
+state_on
+%%status_bar_notification_info_overflow
+switch_role
+tab
+template_percent
+tooltip_description
+tooltip_label
+enGB
+enIN
+enAU
+enCA
+enXC

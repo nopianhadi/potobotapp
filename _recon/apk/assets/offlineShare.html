@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>#title</title>
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+        <link href="/assets/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/swiper-bundle.min.css" rel="stylesheet" />
+        <link href="/assets/boxicons.min.css" rel="stylesheet" />
+        
+        <style>
+            html, body {
+                position: relative;
+                height: 100%;
+                background-color: #eee;
+            }
+            
+            body {
+                background: #eee;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #main-slider {
+                position: relative;
+                width: 100%;
+                height: calc(70vh - 100px);
+                margin-top: 25px;
+                overflow: hidden;
+            }
+            
+            
+            #thumbnails-container {
+                overflow-x: auto;
+                white-space: nowrap;
+                justify-content: space-evenly;
+                display:flex;
+            }
+        
+            #thumbnails {
+                display: flex;
+                gap: 10px;
+                padding: 7px;
+            }
+            
+            #thumbnails img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                cursor: pointer;
+                
+            }
+            
+            .swiper-button-prev,
+            .swiper-button-next {
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 50%;
+                padding: 10px;
+                position: absolute;
+                top: calc(50% - 20px);
+                z-index: 10;
+            }
+            
+            .swiper-button-prev {
+                left: 10px;
+            }
+            
+            .swiper-button-next {
+                right: 10px;
+            }
+            .preview-images img {
+                border: 2px solid transparent;
+                border-radius:10%;
+            }
+            .preview-images img.active {
+                border: 3px solid #1A1A1A;
+                border-radius:10%;
+            }
+            
+            .swiper-button-next, .swiper-button-prev {
+                color: var(--swiper-navigation-color, var(--swiper-theme-color-black));
+                background-color: transparent;
+            }
+            .swiper-pagination {
+                pointer-events: none;
+                top: 5px;
+                max-height: 50px;
+                max-width: 50px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 80%;
+            }
+            .swiper-pagination {
+                position: absolute;
+                text-align: center;
+                transition: .3s opacity;
+                transform: translate3d(0, 0, 0);
+                z-index: 10;
+                background: black;
+                color: white;
+                border-radius: 1.5rem;
+                width: 2.5rem;
+                height: 1.5rem;
+                display: none;
+            }
+            
+            .center_item {
+                max-width: 100%;
+                position: absolute;
+            }
+            .image-contain {
+                object-fit: contain;
+            }
+            
+            .center_item, .poweredby {
+                margin: auto;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: 0;
+            }
+            .max-width-100p {
+                max-width: 100%;
+            }
+            .max-height-100p {
+                max-height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-dark bg-light" style="background-color: #eee !important; padding: 0;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                  <img id="downloadBtn" src="/assets/download-icon.jpg" style="width: 40px;cursor: pointer;"/>
+            </div>
+        </nav>
+        
+        <div id="main-slider" class="swiper-container mySwiper" pagination="true" pagination-type="fraction">
+            <div class="swiper-wrapper">
+                #media-content
+            </div>
+            <div class="swiper-button-prev" id="testid1"></div>
+            <div class="swiper-button-next" id="testid"></div>
+            <div id="pagination" class="swiper-pagination swiper-pagination-custom swiper-pagination-horizontal"style="left:inherit">
+            </div>
+            
+        </div>
+        
+        
+        <div id="thumbnails-container" class="overflow-x-auto p-4">
+            <div id="thumbnails" class="preview-images flex gap-4">
+                #thumb-content
+            </div>
+        </div>
+        
+        
+        <script src="/assets/bootstrap.bundle.min.js"></script>
+        <script src="/assets/swiper-bundle.min.js"></script>
+        
+        
+        
+        <script type="module">
+            var slides = document.querySelectorAll('.preview-images img');
+            var hasMultipleSlides = slides.length > 1;
+            var swiper = new Swiper("#main-slider", {
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                    renderFraction: function (currentClass, totalClass) {
+                        return '<span class="color-white pagination-count background-color-black" ><span class="' + currentClass + '"></span>' +
+                        '/' +
+                        '<span class="' + totalClass + '"></span></span>';
+                    },
+                    formatFractionCurrent: function (number) {
+                        return number;
+                    },
+                    
+                    position: 'bottom-end',
+                }
+                
+                
+            });
+            $(window).on('load', function() {
+                initialize();
+            });
+
+            function initialize()
+            {
+                getDimensions();
+                
+                if(hasMultipleSlides)
+                {
+                    showPagination();
+                }
+            }
+           
+            
+            slides.forEach(function(slide, index) {
+                slide.classList.add('preview-image');
+                slide.dataset.index = index;
+                if (index === 0) {
+                    slide.classList.add('active');
+                }
+                slide.addEventListener('click', function() {
+                    var clickedIndex = parseInt(this.dataset.index);
+                    console.log("Click Index : ", clickedIndex);
+                    swiper.slideToLoop(clickedIndex);
+                    updateActiveThumbnail(clickedIndex);
+                });
+            });
+            
+            swiper.on('slideChange', function () {
+                var activeIndex = swiper.realIndex;
+                console.log("Main Swipper Active Index : ",activeIndex);
+                updateActiveThumbnail(activeIndex);
+                scrollThumbnailsToSelected();
+            });
+            
+            swiper.on('transitionStart', function () {
+                   getDimensions();
+               });
+          
+            
+            function updateActiveThumbnail(index) {
+                var previewImages = document.querySelectorAll('.preview-images img');
+                previewImages.forEach(function(img, idx) {
+                    img.classList.remove('active');
+                    if (idx === index) {
+                        img.classList.add('active');
+                    }
+                });
+            }
+            
+            function showPagination() {
+                document.querySelector('.swiper-pagination').style.display = 'block';
+            }
+            
+            function getDimensions() {
+                console.log("dimension applied");
+                var outerDiv = $('.swiper-slide-active');
+                var img = outerDiv.find('img');
+                var video = outerDiv.find('video')
+                
+                var imgMarginTop = img.css('margin-top');
+                var imgMarginRight = img.css('margin-right');
+                var videoMarginTop = video.css('margin-top');
+                var videoMarginRight = video.css('margin-right');
+                
+                console.log("marginTop",  imgMarginTop )
+                console.log("marginTop",  videoMarginTop )
+                
+                console.log("margin right ",  imgMarginRight )
+                console.log("margin right ",  videoMarginRight )
+                var paginationTag = document.getElementById('pagination');
+                if(img.length == 1)
+                {
+                    paginationTag.style.right = 'calc(' + imgMarginRight + ' + 10px)';
+                    paginationTag.style.top = 'calc(' + imgMarginTop + ' + 10px)';
+                }
+                
+                if(video.length == 1)
+                {
+                    paginationTag.style.right = 'calc(' + videoMarginRight + ' + 10px)';
+                    paginationTag.style.top = 'calc(' + videoMarginTop + ' + 10px)';
+                    
+                }
+            }
+            
+            
+            
+            $(document).ready(function() {
+               // window.onload = getDimensions;
+               // getDimensions();
+                $('#testid').click(function() {
+                    getDimensions();
+                });
+                $('#testid1').click(function() {
+                    getDimensions();
+                });
+                    window.addEventListener('resize', getDimensions);
+                    $(window).on('load', initialize);
+                    window.addEventListener('orientationchange', getDimensions);
+
+            });
+            
+            
+            
+            
+            downloadBtn.addEventListener('click', function() {
+                var activeSlide = swiper.slides[swiper.activeIndex];
+                var mediaElement = activeSlide.querySelector('img, video');
+                var fileExtension = '';
+                var downloadName = '';
+                
+                if (mediaElement.tagName === 'IMG') {
+                    var imgUrl = mediaElement.src;
+                    fileExtension = imgUrl.split('.').pop();
+                    downloadName = getRandomName() + '.' + fileExtension;
+                } else if (mediaElement.tagName === 'VIDEO') {
+                    var videoUrl = document.getElementById("video").src;
+                    fileExtension = videoUrl.split('.').pop();
+                    downloadName = getRandomName() + '.' + fileExtension;
+                }
+                
+                var a = document.createElement('a');
+                a.href = mediaElement.tagName === 'IMG' ? mediaElement.src : document.getElementById("video").src;
+                a.download = downloadName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            });
+            
+            function getRandomName() {
+                var randomNumber = Math.floor(Math.random() * 10000000000);
+                return randomNumber.toString();
+            }
+            
+            function scrollThumbnailsToSelected() {
+                var thumbnailsContainer = document.getElementById('thumbnails-container');
+                var thumbnails = thumbnailsContainer.querySelectorAll('.preview-images img');
+                var selectedThumbnail = thumbnailsContainer.querySelector('.preview-images img.active');
+                
+                if (selectedThumbnail) {
+                    var containerLeft = thumbnailsContainer.getBoundingClientRect().left;
+                    var containerWidth = thumbnailsContainer.offsetWidth;
+                    
+                    var thumbLeft = selectedThumbnail.getBoundingClientRect().left;
+                    var thumbWidth = selectedThumbnail.offsetWidth;
+        
+                    if (thumbLeft < containerLeft) {
+                        thumbnailsContainer.scrollBy({
+                            left: thumbLeft - containerLeft,
+                            behavior: 'smooth'
+                        });
+                    } else if (thumbLeft + thumbWidth > containerLeft + containerWidth) {
+                        thumbnailsContainer.scrollBy({
+                            left: (thumbLeft + thumbWidth) - (containerLeft + containerWidth),
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            }
+        </script>
+        <script src="/assets/jquery-3.7.1.min.js"></script>
+    </body>
+</html>

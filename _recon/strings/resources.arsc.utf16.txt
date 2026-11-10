@@ -1,0 +1,17 @@
+co.lumasoft.lumabooth
+anim
+animator
+array
+attr
+bool
+color
+dimen
+drawable
+font
+integer
+interpolator
+layout
+mipmap
+plurals
+string
+style

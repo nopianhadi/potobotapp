@@ -1,0 +1,568 @@
+TOTAL 4215
+
+### EVENT (49)
+Cannot append event
+Copy event settings
+Create Event
+Create an event to get started.
+Create new event
+Create your first event
+Downloading event settings
+JDropping event due to socket connection error and maxed out deque capacity
+EES edited event
+EES logging created event
+EES was not applied to event
+Error selecting main event
+Event exists
+Event has been filtered
+Failed to pull requested event
+Launch event
+Main event not found
+New event
+No event selected
+Per event limit
+Reload event
+Select an event to see details
+Test Event
+Unknown status event.
+Subscribe before using for an event.
+Dropping blocked event. appId
+DError getting Firebase Installation ID. Skipping this Session Event.
+Error scheduling event
+Error storing raw event. appId
+Error updating raw event. appId
+EEvent aggregate wasn't created during raw event logging. appId, event
+Event can't contain more than
+Event filter result
+GEvent is too long for local database. Sending event directly to service
+Event listener threw exception
+AIgnoring call to log screen view event with duplicate parameters.
+Illegal event name
+Log and bundle. event
+Logging event
+Marking event as conversion
+Marking event as real-time
+DSkipping logging Crashlytics event to Firebase, FirebaseCrash exists
+NToo many default event parameters set. Discarding beyond event parameter limit
+GToo many event names used, ignoring event. appId, name, supported count
+Unknown param type. event, param
+No event queued.
+Failed to close the event fd.
+DFailed to submit a listener notification task. Event loop shut down?
+ESkipping logging Crashlytics event to Firebase, no Firebase Analytics
+
+### BOOTH (1)
+Booth prints
+
+### SESSION (37)
+Awaiting session lock
+Cancel This Session?
+Cancel session
+Cannot acquire session at
+Closing capture session for
+Delete this session?
+Empty capture session closed
+Finalize after session ended (
+HS session configure FAILED at
+GInvalid configuration due to that two non-default session types are set
+Per session limit
+Select your session
+Select your session text
+Session Parameters
+Session ending
+Session resuming
+Session started, time
+Session starting
+Slow-motion session unavailable.
+Stop after session ended (
+BUnable to create capture session due to conflicting configurations
+Cannot parse session configs
+Cannot parse session data
+Could not get session for report
+BCouldn't create directory to store native session files, aborting.
+NCurrent session is expired, remove the session number, ID, and engagement time
+DError getting Firebase Installation ID. Skipping this Session Event.
+Finalizing report for session
+No userId set for session
+Opening a new session with ID
+Persisting anr for session
+Session Token
+KSession engagement user property is in the bundle without session ID. appId
+Session timeout duration set
+CSkipping session finalization because a crash has already occurred.
+JStart a session while there's already an active session. Create a new one.
+Session Not Found
+
+### PHOTO (8)
+Caching photo
+Captured photo
+Here is your photo
+I HAVE READ AND UNDERSTAND THE ABOVE PHOTO RELEASE.
+Photo Layout
+Saved photo
+Take Photo
+Photo review time
+
+### PRINT (14)
+Desktop print failed
+Print Singles
+Print Test Page
+Print automatically
+Print failed
+Print failed.
+Print limits
+Print method
+Print setup
+Print successful
+Print test page
+Show print button
+Unknown print error
+Print Setup
+
+### SHARE (1)
+Share media via
+
+### GALLERY (1)
+Browse Gallery
+
+### ALBUM (1)
+Manage album
+
+### LAYOUT (10)
+MCannot call this method while RecyclerView is computing a layout or scrolling
+Choose layout
+Layout state should be one of
+KLazy list does not support beyond bounds layout for the specified direction
+No layout template found
+Photo Layout
+GTo ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+CmeasureIteration should be only used during the measure/layout pass
+Nnull cannot be cast to non-null type androidx.compose.ui.layout.LayoutModifier
+Inull cannot be cast to non-null type androidx.compose.ui.layout.Placeable
+
+### TEMPLATE (8)
+Choose Template
+Failed to load template
+Failed to parse template
+Failed to process template
+No layout template found
+Template Error
+Template is not set
+Job Template
+
+### THEME (1)
+Theme assets
+
+### STICKER (1)
+Custom sticker
+
+### FRAME (32)
+Drop buffer by not a key frame.
+Failed to draw a frame
+Failed to load first frame
+Failed to prepare frame
+Invalid frame length
+FLow Light Boost is disabled when expected frame rate range exceeds 30.
+Main-frame HTTP
+Main-frame load error
+Retime first frame
+FThe video frame producer became inactive before any data was received.
+Unexpected frame state for
+Video frame processing error
+Failed to decode frame
+Failed to send close frame
+Failed to send frame
+Invalid frame received
+PING frame too long
+Preview frame is too small
+Adjusted frame length (
+Adjusted frame length exceeds
+Error in frame decoder
+Exception closing frame reader
+Failed to frame message
+Frame length too small.
+Frame too large
+Invalid Frame Error
+Invalid HEADERS Frame
+Invalid SETTINGS Frame
+Invalid close frame body
+Max frame length of
+Received invalid frame
+Dreceived non-continuation data frame while inside fragmented message
+
+### FILTER (11)
+Custom filter
+No evaluator set for filter
+The index must match the filter
+Event filter result
+GEvent filter with no ID. Audience definition ignored. appId, audienceId
+Failed to merge filter
+Failed to merge filter. appId
+Filter definition
+FInvalid user property value for Numeric number filter. property, value
+Property filter result
+JProperty filter with no ID. Audience definition ignored. appId, audienceId
+
+### AI (1)
+R Xzn ai
+
+### PORTRAIT (0)
+
+### GREEN (2)
+Green screen background
+Green screen overlay
+
+### VIRTUAL (4)
+Virtual attendant
+Virtual device with
+There is no virtual display
+Unable to create virtual display
+
+### WELCOME (2)
+Welcome Screen
+Welcome screen background
+
+### START SCREEN (1)
+Start screen
+
+### COUNTDOWN (0)
+
+### CAMERA (39)
+Attached camera cannot be null
+Camera Access Required
+Camera Error
+Camera Error (
+Camera ID set cannot be empty.
+Camera close all request failed!
+Camera device Id is
+Camera graph updated from
+Camera has no transform.
+Camera is busy.
+Camera is closed.
+Camera is not active.
+Camera is not ready to record.
+Camera open request failed for
+Closing Camera
+AError from source camera presence observable. Triggering refresh.
+BFailed to interrogate camera factory. Falling back to full update.
+Failed to open camera
+Failed to query camera metadata
+HS camera busy (
+HS camera close issued in
+HS camera closed
+HS camera disconnected
+AIgnore camera state change handling since already stop monitoring
+New camera
+Reopening camera device
+Select camera
+Starting the camera...
+This device has no camera.
+Unavailable camera
+Verifying camera lens facing on
+CVideoCapture is detached from the camera. Surface update cancelled.
+Camera not open
+Camera preview failed
+Closing camera
+Configuring camera
+Failed to close camera
+Failed to configure camera
+Opening camera
+
+### RECORD (8)
+Camera is not ready to record.
+Record 360 or slow motion video
+Record GIF
+Record Video
+Resolving file path for record
+Sharing record is null
+J leak records were discarded because the leak record count is targeted to
+Failed to construct SRV record
+
+### VIDEO (31)
+Your browser does not support the video tag.
+After recording video
+Before recording video
+Boomerang video overlay
+ICached audio data while we wait for video keyframe before starting muxer.
+Caching video
+Failed to load video settings
+Failed to process the video.
+Final generated video with audio
+Muxer.addTrack() for video
+Post-roll video
+Pre-roll video
+LPreview.Builder.setResolutionSelector() is not allowed for high-speed video.
+KPreview.Builder.setTargetAspectRatio() is not allowed for high-speed video.
+IPreview.Builder.setTargetFrameRate() is not allowed for high-speed video.
+JPreview.Builder.setTargetResolution() is not allowed for high-speed video.
+Published video to
+Record 360 or slow motion video
+Record Video
+Releasing video encoder.
+FThe video frame producer became inactive before any data was received.
+Using fallback VIDEO bitrate
+Video codec error
+Video frame processing error
+Video overlay
+IVideoCapture.Builder.setMirrorMode() is not allowed for high-speed video.
+NVideoCapture.Builder.setTargetFrameRate() is not allowed for high-speed video.
+EassetLoaderOutputFormat has to have a audio, video or image mimetype.
+Video NOT fully cached, will retry
+No video URL provided in input data
+NDropped video data since muxer has not yet started and data is not a keyframe.
+
+### BOOMERANG (5)
+Boomerang best-effort fps lock
+Boomerang export complete
+Boomerang overlay
+Boomerang soundtrack
+Boomerang video overlay
+
+### QR (4)
+Offline QR Code
+Offline QR code
+Online QR Code
+Test QR code
+
+### EMAIL (12)
+Email Icon
+Email Warning
+Email body request is null
+Email failed for internalId
+Email/SMS settings
+Enter email
+Send email
+Send test email
+Sending email to
+Sending test email directly to
+Test email to
+Your Email Address
+
+### SMS (9)
+Email/SMS settings
+SMS Queued
+SMS Warning
+SMS failed for internalId
+SMS for internalId
+Send SMS
+Sending SMS to
+LThe sms code has expired. Please re-send the verification code to try again.
+Timed out waiting for SMS.
+
+### WHATSAPP (3)
+WhatsApp Warning
+WhatsApp message sent
+Enable WhatsApp
+
+### SUBSCRIPTION (7)
+To keep using LumaBooth, renew your subscription.
+Direct subscription
+Manage subscription
+No active subscription found.
+Recheck subscription
+Your subscription expired on
+Your subscription supports up to 5 devices
+
+### PLAN (1)
+Your plan renews on
+
+### LOGIN (4)
+Invalid login. Please try again.
+Login connection error for
+Login failed
+Login failed for
+
+### SIGN (6)
+Could not sign in again (
+IDuring begin sign in, params is null, nothing to launch for begin sign in
+Not a sign in API
+Sign out
+NThe request does not contain a valid proof of first factor successful sign-in.
+FThe user's credential is no longer valid. The user must sign in again.
+
+### ACCOUNT (14)
+Did you add an account?
+Create account
+Creating your account...
+GFailed converting service account credential to JWT. This is unexpected
+Registering account for
+Account name cannot be null!
+AAudience are not configured for GDCH service account credentials.
+AError signing service account JWT access header with private key.
+DError signing service account access token request with private key.
+Failed to get service account
+NPlease complete a second factor challenge to finish signing into this account.
+ERemoteException when sending get token and account info user response
+DThis credential is already associated with a different user account.
+LUnable to determine target principal from service account impersonation URL.
+
+### PASSWORD (9)
+Confirm Password
+CDuring save password, found password failure response from one tap
+KDuring save password, params is null, nothing to launch for create password
+Forgot password?
+Invalid E-mail or Password.
+Your Password
+A password must be provided.
+ECannot create an EmailAuthCredential without a password or emailLink.
+The given password is invalid.
+
+### CONNECT (8)
+BCalling connect() while still connected, missing disconnect() for
+FNot connected. Call connect() and wait for onConnected() to be called.
+GOne of the API components you attempted to connect to is not available.
+Connect error
+Connect to
+Exception in connect
+Failed to connect to
+Unable to connect to printer.
+
+### WIFI (2)
+WiFi name is empty
+Anull cannot be cast to non-null type android.net.wifi.WifiManager
+
+### NETWORK (19)
+GConnect your device to the same Wi-Fi network as your chromecast device
+Network Printing
+Network Printing failed
+Network connection lost
+Network error downloading
+Network error for
+Registering network callback
+Searching for network printers
+Unregistering network callback
+Wi-Fi network
+Wi-Fi network name
+Measurement Network
+Network Error
+No network
+No network found on device
+Task exception on network thread
+Network Authentication Required
+Network channel is closed
+Setting requirements to NONE for local network downloads
+
+### SURVEY (3)
+Download survey answers
+Export survey answers
+Survey & Disclaimer
+
+### QUESTION (5)
+Add question
+Delete question
+Move question down
+Move question up
+CYou have to have at least one choice in a multiple choice question.
+
+### PRINTER (7)
+Change printer
+Desktop Printer
+Desktop printer
+MAIN PRINTER
+SECONDARY PRINTER
+Select printer
+Unable to connect to printer.
+
+### PAPER (0)
+
+### SLIDESHOW (1)
+Slideshow settings
+
+### CAST (46)
+Cast devices
+Cast Device
+Mnull cannot be cast to non-null type T of androidx.core.util.Pools.SimplePool
+Lnull cannot be cast to non-null type T of kotlin.sequences.GeneratorSequence
+Jnull cannot be cast to non-null type android.app.admin.DevicePolicyManager
+Enull cannot be cast to non-null type android.content.ClipboardManager
+Knull cannot be cast to non-null type android.hardware.camera2.CameraManager
+Lnull cannot be cast to non-null type android.hardware.display.DisplayManager
+Dnull cannot be cast to non-null type android.net.ConnectivityManager
+Anull cannot be cast to non-null type android.net.wifi.WifiManager
+Cnull cannot be cast to non-null type android.view.DisplayListCanvas
+Gnull cannot be cast to non-null type androidx.collection.MutableIntList
+Jnull cannot be cast to non-null type androidx.compose.runtime.ComposerImpl
+Fnull cannot be cast to non-null type androidx.compose.ui.Modifier.Node
+Mnull cannot be cast to non-null type androidx.compose.ui.autofill.ContentType
+Jnull cannot be cast to non-null type androidx.compose.ui.draw.DrawModifier
+Onull cannot be cast to non-null type androidx.compose.ui.graphics.AndroidCanvas
+Nnull cannot be cast to non-null type androidx.compose.ui.layout.LayoutModifier
+Inull cannot be cast to non-null type androidx.compose.ui.layout.Placeable
+Mnull cannot be cast to non-null type androidx.compose.ui.node.NodeCoordinator
+Cnull cannot be cast to non-null type androidx.compose.ui.node.Owner
+Hnull cannot be cast to non-null type androidx.compose.ui.node.OwnerScope
+Nnull cannot be cast to non-null type androidx.compose.ui.node.TailModifierNode
+Knull cannot be cast to non-null type androidx.compose.ui.platform.ViewLayer
+Gnull cannot be cast to non-null type androidx.compose.ui.semantics.Role
+Nnull cannot be cast to non-null type androidx.compose.ui.state.ToggleableState
+Mnull cannot be cast to non-null type androidx.compose.ui.text.AnnotatedString
+Lnull cannot be cast to non-null type androidx.compose.ui.text.ParagraphStyle
+Gnull cannot be cast to non-null type androidx.compose.ui.text.SpanStyle
+Nnull cannot be cast to non-null type androidx.compose.ui.text.StringAnnotation
+Knull cannot be cast to non-null type androidx.compose.ui.text.UrlAnnotation
+Fnull cannot be cast to non-null type androidx.lifecycle.ReportFragment
+Anull cannot be cast to non-null type androidx.navigation.NavGraph
+Cnull cannot be cast to non-null type androidx.room.RoomOpenDelegate
+Dnull cannot be cast to non-null type de.gmuth.ipp.core.IppCollection
+Knull cannot be cast to non-null type kotlinx.coroutines.CoroutineDispatcher
+Mnull cannot be cast to non-null type android.graphics.drawable.BitmapDrawable
+Bnull cannot be cast to non-null type com.hp.jipp.pdl.pwg.PwgHeader
+Enull cannot be cast to non-null type javax.net.ssl.HttpsURLConnection
+Cnull cannot be cast to non-null type java.security.cert.TrustAnchor
+Gnull cannot be cast to non-null type java.security.cert.X509Certificate
+Cnull cannot be cast to non-null type javax.net.ssl.X509TrustManager
+Onull cannot be cast to non-null type kotlin.coroutines.CoroutineContext.Element
+Enull cannot be cast to non-null type kotlinx.coroutines.CancelHandler
+Nnull cannot be cast to non-null type kotlinx.coroutines.CompletedExceptionally
+Anull cannot be cast to non-null type kotlinx.coroutines.ParentJob
+
+### CHROMECAST (6)
+Chromecast Audio
+GConnect your device to the same Wi-Fi network as your chromecast device
+Disconnecting from Chromecast
+No Chromecast devices found
+Searching for Chromecast devices
+Select Chromecast Devices
+
+### LOCK (19)
+Acquiring operation wake lock (
+Awaiting session lock
+Boomerang best-effort fps lock
+Enter lock pin
+Lock PIN is disabled
+Lock pin
+Lock pin warning
+Multicast lock acquired
+Multicast lock released
+No lock directory was provided.
+Please set a PIN Code to lock
+Releasing operation wake lock (
+Unable to grab file lock.
+Failed to acquire storage lock
+Lock Pin
+Storage lock already acquired
+Aencountered error while creating and acquiring the lock, ignoring
+Lock PIN Warning
+Lock PIN is set
+
+### PIN (20)
+Confirm PIN
+Empty Pin
+Enter PIN to disable
+Enter current PIN
+Enter lock pin
+Enter new PIN
+Incorrect PIN. Try again.
+Lock PIN is disabled
+Lock pin
+Lock pin warning
+No PIN set
+Please set a PIN Code to lock
+Re-enter your PIN
+Set up PIN
+Lock Pin
+Change PIN
+Disable PIN
+Lock PIN Warning
+Lock PIN is set
+Please enter PIN

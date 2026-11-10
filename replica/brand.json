@@ -1,0 +1,6 @@
+{
+  "name": "Flashfold",
+  "avoid": ["LumaBooth", "Lumasoft", "dslrBooth"],
+  "domains": ["lumasoft.co", "dslrbooth.com", "lumabooth.com"],
+  "colors": []
+}

@@ -1,0 +1,31 @@
+feature,area,priority,original,clone,notes
+Create and manage events,events,must,yes,yes,Local event CRUD; cloud tenancy is not connected
+Duplicate event settings,events,should,yes,yes,Copies event configuration without sessions or media
+Configure booth welcome screen and event identity,setup,must,yes,yes,Original welcome copy color and simple layout choices
+Capture photo in a guest booth flow,capture,must,yes,yes,Implemented through browser camera; physical capture not available in automated test environment
+Capture animated GIF,capture,should,yes,yes,Encodes eight browser camera frames locally
+Capture video,capture,should,yes,yes,Five-second browser MediaRecorder clip
+360 and slow-motion capture,modes,could,yes,partial,UI records standard browser video; no 360 hardware trigger or 120/240 fps capture
+Save captures and browse an event gallery,gallery,must,yes,yes,Media and session metadata stored in IndexedDB
+Retake and download a captured result,capture,must,yes,yes,Retake from review and download from gallery
+Choose front or rear browser camera,capture,should,yes,yes,Uses browser facingMode when supported
+Select multiple booth experiences,capture,must,yes,yes,Configurable multi-select mode set with a guest chooser; native capture limits are tracked separately
+Three-second photo countdown,capture,should,yes,yes,Implemented for photo mode
+Guest consent disclaimer,compliance,should,yes,yes,Required before camera starts; declining blocks the session
+Guest survey question,compliance,should,yes,yes,One configurable text response is stored with session
+Web Share API file sharing,sharing,should,yes,partial,Uses navigator.share when available; unsupported browsers get download guidance
+QR gallery sharing,gallery,should,yes,skip,No public guest URL exists in local-only mode
+Direct email SMS and WhatsApp delivery,sharing,should,yes,skip,Provider accounts consent and production backend are not configured
+Browser print page,gallery,should,unknown,yes,Opens print-ready media; not direct printer discovery
+Network IPP/IPPS printing,hardware,should,yes,skip,Requires trusted print bridge and local network discovery
+Local gallery with item preview filters download and delete,gallery,must,yes,yes,Original media remain intact alongside template-composited previews; operates only on this browser/device
+Public online gallery with guest access,gallery,should,yes,partial,Gallery view exists locally; public access and cloud storage are unimplemented
+Gallery privacy password and guest access,gallery,should,yes,partial,Event/media deletion is local; guest link permissions need SaaS backend
+Event insights and local session counters,analytics,could,yes,partial,Session/media counts are local; share analytics are not tracked
+Cross-device cloud sync,sync,should,yes,skip,No backend credentials or sync service configured
+Gallery upload slideshow embed and share statistics,gallery,could,yes,skip,Current online-dashboard features need cloud storage and sharing endpoints
+Template catalog and imported print layouts,templates,should,yes,partial,Original 4x6/2x6 presets support editable slots and image backgrounds that flow into booth welcome/review; licensed catalog remains excluded
+Start-screen video virtual attendant and countdown prompts,setup,could,yes,skip,Current official dashboard docs; not implemented in the browser slice
+Photo filters background removal and AI portraits,media,could,yes,skip,Requires media processing or external services and remains unverified for APK 1.1.2
+Android kiosk pinning and OS permissions,hardware,could,yes,skip,Native Android system behavior is unavailable to a normal web app
+Account authentication billing and multi-tenant authorization,saas,must,yes,partial,Email auth and workspace-scoped repository are implemented; live project credentials, two-user RLS tests, billing, and production session hardening remain

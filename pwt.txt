@@ -1,0 +1,4 @@
+
+Running 1 test using 1 worker
+
+[1/1] [chromium] ΓÇ║ e2e\f01-event-setup.spec.ts:3:1 ΓÇ║ F01-H1 creates an event, saves its modes, and remains usable on mobile
